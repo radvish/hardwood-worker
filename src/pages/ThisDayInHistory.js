@@ -2,7 +2,7 @@ import React, {useEffect, useState, useRef} from 'react'
 import teamCodes from '../components/TeamCodes'
 import TeamMenuOption from '../components/TeamMenuOption'
 import Results from '../components/Results'
-import NONE from '../images/logos/NONE.png'
+import NONE from '../images/misc/NONE.png'
 import { setData } from '../components/FetchData'
 import {Link} from 'react-router-dom'
 
