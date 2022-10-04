@@ -30,6 +30,10 @@ const Home = () => {
             <p style={{fontSize: '1.1rem'}}>Persons involved in work that takes place on professional basketball courts, commonly made of maple wood. (colloquial) A basketball player.</p>
 
             <span><b>source:</b> hardwoodworker.com</span>
+
+            <div style={{ width: '100%', display: 'block'}}>
+                <Link to={`/thisdayinhistory/`} id='abcd'>this day in History</Link>
+            </div>
         </div>
 
         <div className='col2'>
@@ -39,9 +43,7 @@ const Home = () => {
             <img src={basketball_court} alt='a basketball court' style={{width: '80%', marginLeft: 'auto'}}></img>
 
             </div>
-            <div style={{ width: '100%', display: 'block'}}>
-                <Link to={`/thisdayinhistory/`} id='abcd'>this day in History</Link>
-            </div>
+            
 
             
 
